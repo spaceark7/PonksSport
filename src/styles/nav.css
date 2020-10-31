@@ -1,0 +1,59 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    padding: 30px 100px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    display: flex !important;
+    background-color: black;
+ }
+
+ header .logo {
+     font-size: 2em;
+     color: #fff;
+     font-weight: 800;
+     text-decoration: none;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+ }
+
+ header .toggle {
+     position: relative;
+     width: 30px;
+     height: 30px;
+     background: url('../assets/menu2.png');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 30px;
+     cursor: pointer;
+     display: none;
+ }
+
+ header ul {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ header ul li {
+     position: relative;
+     list-style: none;
+     margin-left: 40px;
+ }
+ header ul li a {
+     color: white;
+     text-decoration: none;
+ }
+ header a img {
+     width: 10%;
+     margin-right: 10px;
+ }
+
+ header a #xiom-logo {
+     width: 15%;
+ }

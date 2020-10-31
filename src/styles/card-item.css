@@ -1,0 +1,37 @@
+.mCard {
+    width: 50%;
+    padding: 50px;
+    height: 30%;
+    
+    
+}
+
+.mCardBox {
+    
+}
+
+#left-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#right {
+    padding: 80px 10px;
+}
+
+#right h2 {
+    font-size: 19pt;
+    text-transform: uppercase;
+    top: 0%;
+    font-weight: 600;
+}
+#right p {
+    font-size: 12pt;
+}
+
+#right a {
+    font-size: 19pt;
+}
+#right h2, p, a {
+    color: white;
+}
