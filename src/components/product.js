@@ -33,19 +33,64 @@ function Product() {
                         </div>
                     </Tab>
                     <Tab eventKey="blade" title="Blade">
-                    <h2> Blade Page</h2>
+                    <div className = "container-fluid" id="body-content">
+                            <div className="body-content-row row">
+                        
+                               { newdata = product.blade.map(item => {
+                                   console.log(item);
+                                   return <CardItem key={item.Id} product={item}/>
+                               })}
+
+                            </div>
+                        </div>
                     </Tab>
                     <Tab eventKey="table+" title="Table+">
-                    <h2> Table+ Page</h2>
+                    <div className = "container-fluid" id="body-content">
+                            <div className="body-content-row row">
+                        
+                               { newdata = product.table.map(item => {
+                                   console.log(item);
+                                   return <CardItem key={item.Id} product={item}/>
+                               })}
+
+                            </div>
+                        </div>
                     </Tab>
                     <Tab eventKey="ball" title="Ball & Racket">
-                    <h2> Ball & Racket Page</h2>
+                    <div className = "container-fluid" id="body-content">
+                            <div className="body-content-row row">
+                        
+                               { newdata = product.ballandracket.map(item => {
+                                   console.log(item);
+                                   return <CardItem key={item.Id} product={item}/>
+                               })}
+
+                            </div>
+                        </div>
                     </Tab>
                     <Tab eventKey="fashion" title="Fashion">
-                    <h2> Fashion Page</h2>
+                    <div className = "container-fluid" id="body-content">
+                            <div className="body-content-row row">
+                        
+                               { newdata = product.fashion.map(item => {
+                                   console.log(item);
+                                   return <CardItem key={item.Id} product={item}/>
+                               })}
+
+                            </div>
+                        </div>
                     </Tab>
                     <Tab eventKey="accesory" title="Accessory">
-                    <h2> Accessory Page</h2>
+                    <div className = "container-fluid" id="body-content">
+                            <div className="body-content-row row">
+                        
+                               { newdata = product.accessory.map(item => {
+                                   console.log(item);
+                                   return <CardItem key={item.Id} product={item}/>
+                               })}
+
+                            </div>
+                        </div>
                     </Tab>
             </Tabs>
         </div>
