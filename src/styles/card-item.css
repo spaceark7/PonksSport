@@ -1,13 +1,21 @@
 .mCard {
     width: 50%;
     padding: 50px;
-    height: 30%;
+    height: 50%;
+    
     
     
 }
 
 .mCardBox {
-    
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+    transition: 0.5s;
+}
+.mCardBox:hover {
+    transition: 0.8s;
+    background-image: linear-gradient(to right top, #060930, #141137, #23153e, #321944, #401d4a, #4d214f, #592453, #662856, #742d59, #83325b, #91385d, #9e3f5e);
 }
 
 #left-img img {
@@ -27,6 +35,13 @@
 }
 #right p {
     font-size: 12pt;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-height: 50px;
+}
+#right h3 {
+    color: white;
+    font-size: 14pt;
 }
 
 #right a {

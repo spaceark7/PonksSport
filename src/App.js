@@ -5,7 +5,10 @@ import Product from './components/product.js'
 import Nav from './components/nav.js';
 import Loader from './components/loader.js'
 
+
 function App() {
+
+ 
   return (
     <div className="App">
       <Loader />

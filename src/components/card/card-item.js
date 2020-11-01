@@ -1,18 +1,21 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import kintil from '../../assets/product/rubber/1.VEGA-TOUR_RUBBER_2.jpg';
 import '../../styles/card-item.css';
-
-function CardItem(props) {
+import ss from '../../assets/product/rubber/r1.jpg'
+function CardItem({product}) {
+    console.log("p is", product.path)
+    
     return(
         <div className="mCard container">
             <div className="row mCardBox">
                 <div className="product-image col-sm-6 col-md-6 col-l-6" id="left-img">
-                    <img src={kintil}></img>
+                    <img src={product.path}></img>
                 </div>
                 <div className="product-desc col-sm-6 col-md-6 col-l-6" id="right">
-                    <h2>Title</h2>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <h2>{product.name}</h2>
+                    <p>{product.desc}</p>
+                    <h3>Color: {product.color}</h3>
+                    <h3>Size: {product.specs} </h3>
                     <a href=''>Order</a>
                 </div>
                 

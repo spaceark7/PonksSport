@@ -6,6 +6,8 @@
     height: 100vh;
     color: white;
     background:linear-gradient(to right top, #060930, #141137, #23153e, #321944, #401d4a, #4d214f, #592453, #662856, #742d59, #83325b, #91385d, #9e3f5e); ;
+    display: block;
+    transition: 0.5s;
 }
 
 .loader h1 {
