@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/PonksSport/static/css/main.3e7b565f.chunk.css",
-    "main.js": "/PonksSport/static/js/main.367d2c4e.chunk.js",
-    "main.js.map": "/PonksSport/static/js/main.367d2c4e.chunk.js.map",
-    "runtime-main.js": "/PonksSport/static/js/runtime-main.97fc3632.js",
-    "runtime-main.js.map": "/PonksSport/static/js/runtime-main.97fc3632.js.map",
+    "main.css": "/PonksSport/static/css/main.e3c61ac7.chunk.css",
+    "main.js": "/PonksSport/static/js/main.08098312.chunk.js",
+    "main.js.map": "/PonksSport/static/js/main.08098312.chunk.js.map",
+    "runtime-main.js": "/PonksSport/static/js/runtime-main.2d04cbe7.js",
+    "runtime-main.js.map": "/PonksSport/static/js/runtime-main.2d04cbe7.js.map",
     "static/css/2.dba7363f.chunk.css": "/PonksSport/static/css/2.dba7363f.chunk.css",
-    "static/js/2.82657ad2.chunk.js": "/PonksSport/static/js/2.82657ad2.chunk.js",
-    "static/js/2.82657ad2.chunk.js.map": "/PonksSport/static/js/2.82657ad2.chunk.js.map",
-    "static/js/3.395e799e.chunk.js": "/PonksSport/static/js/3.395e799e.chunk.js",
-    "static/js/3.395e799e.chunk.js.map": "/PonksSport/static/js/3.395e799e.chunk.js.map",
+    "static/js/2.25624ca8.chunk.js": "/PonksSport/static/js/2.25624ca8.chunk.js",
+    "static/js/2.25624ca8.chunk.js.map": "/PonksSport/static/js/2.25624ca8.chunk.js.map",
+    "static/js/3.7cbc6dd3.chunk.js": "/PonksSport/static/js/3.7cbc6dd3.chunk.js",
+    "static/js/3.7cbc6dd3.chunk.js.map": "/PonksSport/static/js/3.7cbc6dd3.chunk.js.map",
     "index.html": "/PonksSport/index.html",
     "static/css/2.dba7363f.chunk.css.map": "/PonksSport/static/css/2.dba7363f.chunk.css.map",
-    "static/css/main.3e7b565f.chunk.css.map": "/PonksSport/static/css/main.3e7b565f.chunk.css.map",
-    "static/js/2.82657ad2.chunk.js.LICENSE.txt": "/PonksSport/static/js/2.82657ad2.chunk.js.LICENSE.txt",
-    "static/media/1.VEGA-TOUR_RUBBER_2.c472e5ff.jpg": "/PonksSport/static/media/1.VEGA-TOUR_RUBBER_2.c472e5ff.jpg",
+    "static/css/main.e3c61ac7.chunk.css.map": "/PonksSport/static/css/main.e3c61ac7.chunk.css.map",
+    "static/js/2.25624ca8.chunk.js.LICENSE.txt": "/PonksSport/static/js/2.25624ca8.chunk.js.LICENSE.txt",
     "static/media/3.b05370ec.jpg": "/PonksSport/static/media/3.b05370ec.jpg",
     "static/media/4.0566d008.jpg": "/PonksSport/static/media/4.0566d008.jpg",
     "static/media/Aww.fba037ac.png": "/PonksSport/static/media/Aww.fba037ac.png",
@@ -24,13 +23,14 @@
     "static/media/logo.103b5fa1.svg": "/PonksSport/static/media/logo.103b5fa1.svg",
     "static/media/mc.c6de74eb.jpg": "/PonksSport/static/media/mc.c6de74eb.jpg",
     "static/media/mc3.438bfdb0.jpg": "/PonksSport/static/media/mc3.438bfdb0.jpg",
+    "static/media/r1.c472e5ff.jpg": "/PonksSport/static/media/r1.c472e5ff.jpg",
     "static/media/tw.c4284c16.jpg": "/PonksSport/static/media/tw.c4284c16.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.97fc3632.js",
+    "static/js/runtime-main.2d04cbe7.js",
     "static/css/2.dba7363f.chunk.css",
-    "static/js/2.82657ad2.chunk.js",
-    "static/css/main.3e7b565f.chunk.css",
-    "static/js/main.367d2c4e.chunk.js"
+    "static/js/2.25624ca8.chunk.js",
+    "static/css/main.e3c61ac7.chunk.css",
+    "static/js/main.08098312.chunk.js"
   ]
 }
