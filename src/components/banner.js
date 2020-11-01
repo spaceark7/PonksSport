@@ -2,10 +2,6 @@ import React, { useEffect } from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import {Tabs, Tab } from 'react-bootstrap';
 import '../styles/banner.css'
-import mock from '../assets/mc.jpg';
-import mock1 from '../assets/mc3.jpg';
-import mock2 from '../assets/tw.jpg';
-
 import yon from '../assets/banner/Yon.png'
 import aww from '../assets/banner/Aww.png'
 import ias from '../assets/banner/IndonesiaAllStar.png'
