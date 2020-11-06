@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PonksSport/static/css/main.bc8b83ee.chunk.css",
+    "main.css": "/PonksSport/static/css/main.c182b449.chunk.css",
     "main.js": "/PonksSport/static/js/main.bc0ac3cc.chunk.js",
     "main.js.map": "/PonksSport/static/js/main.bc0ac3cc.chunk.js.map",
     "runtime-main.js": "/PonksSport/static/js/runtime-main.98d6e96c.js",
@@ -12,7 +12,7 @@
     "static/js/3.a0ff80fd.chunk.js.map": "/PonksSport/static/js/3.a0ff80fd.chunk.js.map",
     "index.html": "/PonksSport/index.html",
     "static/css/2.dba7363f.chunk.css.map": "/PonksSport/static/css/2.dba7363f.chunk.css.map",
-    "static/css/main.bc8b83ee.chunk.css.map": "/PonksSport/static/css/main.bc8b83ee.chunk.css.map",
+    "static/css/main.c182b449.chunk.css.map": "/PonksSport/static/css/main.c182b449.chunk.css.map",
     "static/js/2.1de12a78.chunk.js.LICENSE.txt": "/PonksSport/static/js/2.1de12a78.chunk.js.LICENSE.txt",
     "static/media/3.b05370ec.jpg": "/PonksSport/static/media/3.b05370ec.jpg",
     "static/media/4.0566d008.jpg": "/PonksSport/static/media/4.0566d008.jpg",
@@ -38,7 +38,7 @@
     "static/js/runtime-main.98d6e96c.js",
     "static/css/2.dba7363f.chunk.css",
     "static/js/2.1de12a78.chunk.js",
-    "static/css/main.bc8b83ee.chunk.css",
+    "static/css/main.c182b449.chunk.css",
     "static/js/main.bc0ac3cc.chunk.js"
   ]
 }
