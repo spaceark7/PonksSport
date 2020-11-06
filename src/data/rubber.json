@@ -6,7 +6,7 @@
             "desc": "BEYOND EXPECTATION - THE PERFECT PERFORMANCE RUBBER VEGA TOUR.\r\nARC AND VELOCITY Increased from IMB Generation. More spin, higher arc and faster than ever. Easiest rubber - VEGA TOUR",
             "color": "Red/Black",
             "specs": "1.8/2.0/MAX",
-            "path": "require('../../assets/product/rubber/r1.jpg')"
+            "path": "r1"
         },
         {
             "Id": "2",

@@ -1,15 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../styles/card-item.css';
-import ss from '../../assets/product/rubber/r1.jpg'
+
+
 function CardItem({product}) {
-    console.log("p is", product.path)
+    const [imz,setimz] = useState('');
+    useEffect(() => {
+        const imag = "/product/blade/b1.png";
+        console.log(imag)
+        setimz('../../assets/PonksSport.png');
+    })
     
     return(
         <div className="mCard container">
             <div className="row mCardBox">
                 <div className="product-image col-sm-6 col-md-6 col-l-6" id="left-img">
-                    <img src={product.path}></img>
+                    <img src={`${process.env.PUBLIC_URL}/product/blade/b1.png`}></img>
                 </div>
                 <div className="product-desc col-sm-6 col-md-6 col-l-6" id="right">
                     <h2>{product.name}</h2>
