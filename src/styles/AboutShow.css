@@ -1,0 +1,71 @@
+.about-container {
+    width: 100%;
+    height: 90vh;
+    background: url('../assets/bgAbout.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.col-about {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+#left-container {
+    padding: 50px;
+}
+
+.col-about h3 {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    font-size: 94pt;
+    font-weight: 600;
+    color: white;
+}
+.col-about h3 span{
+    color: #ed1e79;
+}
+.col-about p {
+    position: relative;
+    font-size: 12pt;
+    left: 10%;
+    width: 80%;
+    top: 10%;
+}
+.linkTo {
+    position: relative;
+    bottom: -15%;
+    background: #ed1e79;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 800;
+    left: 10%;
+}
+.col-about h2 {
+    font-size: 16pt;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+}
+
+.col-about #p-title {
+    bottom: 5%;
+    left: 25%;
+    font-size: 14pt;
+}
+
+#about-featured {
+    position: relative;
+    width: 52%;
+    text-align: justify;
+    left: 49%;
+}

@@ -27,7 +27,7 @@ import four from '../../assets/banner/4.jpg'
        next.addEventListener('click', function() {
            Slide();  
        })
-       window.setTimeout(Slide(), 2000);
+      
    })
 
     return ( 
