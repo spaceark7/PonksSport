@@ -15,7 +15,8 @@ const AboutShow = () => {
            <img id="about-featured" src={Yon}></img>
            <h2 className="name">Yon Mardiyono
            </h2>
-           <h2 id="p-title">National Athlete Tennis Table
+           <h2 id="p-title">National Athlete Tennis Table <br></br>
+           -CEO Founder Ponks Sport
            </h2>
 
         </div>

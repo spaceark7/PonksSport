@@ -14,7 +14,7 @@ const ProductShow = () => {
 
     useEffect(() => {
         let thumbnails = document.getElementsByClassName('thumbnail')
-        let activeImages = document.getElementsByClassName('active')
+        let activeImages = document.getElementsByClassName('ps_active')
         
         for (var i=0; i < thumbnails.length; i++){
 
@@ -22,11 +22,11 @@ const ProductShow = () => {
 				console.log(activeImages)
 				
 				if (activeImages.length > 0){
-					activeImages[0].classList.remove('active')
+					activeImages[0].classList.remove('ps_active')
 				}
 				
 
-				this.classList.add('active')
+				this.classList.add('ps_active')
 				document.getElementById('featured').src = this.src
 			})
 		}
@@ -59,7 +59,7 @@ const ProductShow = () => {
                 <img className="arrow" id="slide-left" src={Prev}></img>
 
                 <div className="slider-ps">
-                    <img className="thumbnail active" src={Rubber}></img>
+                    <img className="thumbnail ps_active" src={Rubber}></img>
                     <img className="thumbnail" src={Blade}></img>
                     <img className="thumbnail" src={Table}></img>
                     <img className="thumbnail" src={BNR}></img>

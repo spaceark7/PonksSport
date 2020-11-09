@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="col-footer">
             <h2>Social Media</h2>
             <div className="sosmed">
-                <a href="#"><img id="icon" src={FB}></img></a>
+                <a target="blank" href="https://www.facebook.com/xiom.indonesia"><img id="icon" src={FB}></img></a>
                 <a href="#"><img id="icon" src={IG}></img></a>
                 <a href="#"><img id="icon" src={YT}></img></a>
                 <a href="#"><img id="icon" src={WA}></img></a>
