@@ -275,15 +275,39 @@
     font-size: 2em;
   }
   #thirdslide h2 {
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
   #fourthslide {
-    bottom: 50%;
+    bottom: 60%;
   }
   #fourthslide h2 {
     font-size: 1.5em;
   }
   #fifthslide h2 {
     font-size: 1.5em;
+  }
+}
+
+@media (max-width: 425px) {
+  #imgfirstslide {
+    object-fit: 50% 50%;
+    left:-30%;
+  }
+  #firstslide {
+    right: 0%;
+    padding: 10px;
+  }
+  #firstslide h2 {
+    text-align: left;
+    font-size: 1em;
+  }
+  .banner-contentBx h2 {
+    font-size: 1.5em;
+  }
+  .banner-contentBx p {
+    font-size: 9pt;
+  }
+  #thirdslide {
+    left: 5%;
   }
 }

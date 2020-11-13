@@ -52,9 +52,8 @@ const ProductShow = () => {
                 
                 <div className="textBx">
                 <h1>The Best Professional Equipment</h1>
-                <hr></hr>
+                <hr id='separator'></hr>
                 <h3>Suits for All Your PlayStyle</h3>
-                <p>lorem ipsum dolor sir amet kuy</p>
                 <a className="link-button" href="#firstslide">See More</a>
                 <div id="slide-wrapper">
                 

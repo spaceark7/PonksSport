@@ -10,7 +10,7 @@
 .column {
   width: 50%;
   height: 100%;
-  margin-top: 15%;
+  
   display: flex;
   justify-content: center;
 }
@@ -35,24 +35,25 @@
 }
 .textBx {
   position: relative;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 .textBx h1 {
   font-size: 3em;
   font-weight: 600;
 }
+.separator {
+	margin: 0.5em;
+}
 .textBx a {
   position: relative;
-  padding: 20px;
+  padding: 10px;
+  bottom: 0;
   text-decoration: none;
   color: white;
   background-color: blueviolet;
   border-radius: 20px;
-  top: 5%;
 }
-.textBx p {
-  color: black;
-}
+
 .thumbnail:hover {
   opacity: 1;
 }
@@ -116,4 +117,18 @@
     margin-top: 30%;
     height: 100%;
   }
+  .textBx h3 {
+	  font-size: 1.5em;
+  }
+
+  
+}
+
+@media (max-width: 768px) {
+	.textBx {
+		margin-top: 10%;
+	  }
+	  .textBx h1 {
+		  font-size: 2em;
+	  }
 }
