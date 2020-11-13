@@ -261,3 +261,29 @@
     font-size: 1.5em;
   }
 }
+
+@media (max-width: 768px) {
+  #imgfirstslide {
+    left: -20%;
+  }
+  #imgsecondslide {
+    object-fit: cover;
+    width: 50%;
+    object-position: 20% 50%;
+  }
+  #firstslide h2 {
+    font-size: 2em;
+  }
+  #thirdslide h2 {
+    font-size: 2.5em;
+  }
+  #fourthslide {
+    bottom: 50%;
+  }
+  #fourthslide h2 {
+    font-size: 1.5em;
+  }
+  #fifthslide h2 {
+    font-size: 1.5em;
+  }
+}

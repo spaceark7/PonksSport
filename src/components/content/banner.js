@@ -82,10 +82,10 @@ import four from '../../assets/banner/4.jpg'
         <section className="img-banner">
             <div className='imgBx'>
                 <img id='imgfirstslide' alt='' src={yon} className="active"/>
-                <img alt='' src={aww}/>
-                <img alt='' src={ias}/>
-                <img alt='' src={three}/>
-                <img alt='' src={four}/>
+                <img id='imgsecondslide' alt='' src={aww}/>
+                <img id='imgthirdslide' alt='' src={ias}/>
+                <img id='imgfourthslide' alt='' src={three}/>
+                <img id='imgfifthslide' alt='' src={four}/>
             </div>
             <div className='banner-contentBx'>
                 <div id='firstslide' className="active">
