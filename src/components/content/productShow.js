@@ -29,7 +29,7 @@ const ProductShow = () => {
 			})
 		}
 
-
+        
 		// let buttonRight = document.getElementById('slide-right');
 		// let buttonLeft = document.getElementById('slide-left');
 

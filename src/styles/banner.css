@@ -171,6 +171,7 @@
   position: absolute;
   top: 0%;
   left: 25%;
+  text-align: center;
 }
 #fourthslide {
   position: absolute;
@@ -242,3 +243,21 @@
      margin-bottom: 40px;
      cursor: pointer;
  } */
+
+@media (max-width: 1024px) {
+  #firstslide h2 {
+    font-size: 2em;
+  }
+  #thirdslide h2 {
+    font-size: 2.5em;
+  }
+  #fourthslide {
+    bottom: 50%;
+  }
+  #fourthslide h2 {
+    font-size: 1.5em;
+  }
+  #fifthslide h2 {
+    font-size: 1.5em;
+  }
+}

@@ -14,7 +14,7 @@ import four from '../../assets/banner/4.jpg'
    useEffect(()=> {
        const imgBx = document.querySelector('.imgBx');
        const slides = imgBx.getElementsByTagName('img');
-       console.log(imgBx);
+       console.log('imgbx: ',imgBx);
        let i = 0;
     
        function Slide() {
@@ -104,7 +104,7 @@ import four from '../../assets/banner/4.jpg'
                     <h2>Ready To Be A Champion?</h2>
                     <p>XIOM Will Deliver it for you</p>
                 </div>
-                <div >
+                <div id='fifthslide' >
                     <h2>xiom tennis table equipment</h2>
                     <p>Provide You Complete Equipment For Your Training, Sparing And Competing</p>
                 </div>
