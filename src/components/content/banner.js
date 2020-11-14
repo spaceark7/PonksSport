@@ -57,11 +57,11 @@ import four from '../../assets/banner/4.jpg'
     }
       
        
-    // const interval = setInterval(() => {
-    //     console.log('executed');
-    //     Slide()
-    //     SlideText()
-    // }, 4000)
+     const interval = setInterval(() => {
+         console.log('executed');
+         Slide()
+         SlideText()
+     }, 4000)
       
       
    })

@@ -169,13 +169,13 @@
 }
 #thirdslide {
   position: absolute;
-  top: 0%;
+  top: -7%;
   left: 25%;
   text-align: center;
 }
 #fourthslide {
   position: absolute;
-  bottom: 29%;
+  bottom: 25%;
   text-align: end;
 }
 .banner-contentBx h2 {
@@ -297,6 +297,9 @@
     right: 0%;
     padding: 10px;
   }
+  .controls {
+    display: none;
+  }
   #firstslide h2 {
     text-align: left;
     font-size: 1em;
@@ -309,5 +312,17 @@
   }
   #thirdslide {
     left: 5%;
+  }
+}
+
+@media (max-width:375px) {
+  #imgfirstslide {
+    left: 0%;
+  }
+  #firstslide {
+    top: 5%;
+  }
+  #imgsecondslide {
+    object-position: 25% 50%;
   }
 }

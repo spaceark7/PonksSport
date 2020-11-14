@@ -37,3 +37,22 @@
 #icon {
     width: 50%;
 }
+
+@media (max-width: 425px) {
+    .footer-container {
+        height: 400px;
+    }
+    .footer-container .col-footer {
+        width: 100%;
+      
+    }
+}
+@media (max-width: 375px) {
+    .footer-container {
+        height: 500px;
+    }
+    .footer-container .col-footer {
+        width: 100%;
+      
+    }
+}
