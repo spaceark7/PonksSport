@@ -267,9 +267,9 @@
     left: -20%;
   }
   #imgsecondslide {
-    object-fit: cover;
-    width: 50%;
-    object-position: 20% 50%;
+      /* object-fit: cover; */
+      width: 100%;
+      object-position: 30% 50%;
   }
   #firstslide h2 {
     font-size: 2em;
