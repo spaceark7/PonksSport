@@ -138,6 +138,9 @@
       max-width: 100px;
       max-height: 50px;
     }
+    .textBx a {
+      font-size: 9px;
+      }
 }
 
 @media (max-width: 375px) {

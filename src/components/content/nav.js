@@ -31,6 +31,8 @@ function Nav() {
             sidebar.style.display = 'none';
         })
 
+        
+
     })
     return(
         <Router>
