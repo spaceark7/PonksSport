@@ -1,0 +1,32 @@
+
+.container-fluid {
+    max-width: 100%;
+    height: 100vh;
+    margin: 0;
+    background: url('../assets/gedung.JPG') no-repeat 50% 40%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    background: rgba(51,51,255,0.3);
+    width: 100%;
+    height: 100vh;
+}
+.container-fluid::before {
+    content: '';
+    background: rgba(51,51,255,0.6);
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.contact-title {
+    color: white;
+    font-weight: 800;
+    padding: 20px 10px;
+}
+.title-desc {
+    padding: 20px 10px;
+}

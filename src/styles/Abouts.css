@@ -90,10 +90,10 @@
 
 @media (max-width: 768px) {
   .Acol-about h2 {
-    bottom: 50%;
+    bottom: 40%;
   }
   .Acol-about #Ap-title {
-    bottom: 40%;
+    bottom: 30%;
   }
 }
 
@@ -123,11 +123,12 @@
     bottom: 0%;
     font-size: 12pt;
     text-align: end;
+    width: 50%;
   }
   .Acol-about #Ap-title {
     bottom: 0%;
     top: 10%;
-    font-size: 12pt;
+    font-size: 10pt;
     text-align: end;
   }
 }
