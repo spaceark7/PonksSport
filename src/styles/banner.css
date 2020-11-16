@@ -169,7 +169,7 @@
 }
 #thirdslide {
   position: absolute;
-  top: -7%;
+  top: 0%;
   left: 25%;
   text-align: center;
 }
@@ -267,9 +267,9 @@
     left: -20%;
   }
   #imgsecondslide {
-      /* object-fit: cover; */
-      width: 100%;
-      object-position: 30% 50%;
+    /* object-fit: cover; */
+    width: 100%;
+    object-position: 30% 50%;
   }
   #firstslide h2 {
     font-size: 2em;
@@ -291,7 +291,7 @@
 @media (max-width: 425px) {
   #imgfirstslide {
     object-fit: 50% 50%;
-    left:-30%;
+    left: -30%;
   }
   #firstslide {
     right: 0%;
@@ -315,7 +315,7 @@
   }
 }
 
-@media (max-width:375px) {
+@media (max-width: 375px) {
   #imgfirstslide {
     left: 0%;
   }

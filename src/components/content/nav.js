@@ -31,15 +31,22 @@ function Nav() {
             sidebar.style.display = 'none';
         })
 
-        
+        const menu = sidebar.getElementsByTagName('a');
+        console.log('menu is ' , menu);
+
+        for (let ctr = 0; ctr < menu.length; ctr++) {
+            menu[ctr].addEventListener('click', function() {
+                sidebar.style.display = 'none';
+            })
+        }
 
     })
     return(
         <Router>
         <header>
                 <a href='#' className="logo">
-                    <img src={logo}></img>
-                    <img id="xiom-logo" src={xiomlogo}></img>
+                    <img alt='ponks logo' src={logo}></img>
+                    <img alt='xiom logo' id="xiom-logo" src={xiomlogo}></img>
                 </a>
                 <ul>
                     <li><Link to='/'>Home</Link></li>
