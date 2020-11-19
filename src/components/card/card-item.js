@@ -15,7 +15,7 @@ function CardItem({product}) {
         <div className="mCard container">
             <div className="row mCardBox">
                 <div className="product-image col-sm-6 col-md-6 col-l-6" id="left-img">
-                    <img src={`${process.env.PUBLIC_URL}/product/blade/b1.png`}></img>
+                    <img alt='product' src={`${process.env.PUBLIC_URL}/product/blade/b1.png`}></img>
                 </div>
                 <div className="product-desc col-sm-6 col-md-6 col-l-6" id="right">
                     <h2>{product.name}</h2>

@@ -38,10 +38,10 @@ function Product() {
                     <div className = "container-fluid" id="body-content">
                             <div className="body-content-row row">
                         
-                               {/* { newdata = product.blade.map(item => {
+                               { newdata = product.blade.map(item => {
                                    console.log(item);
                                    return <CardItem key={item.Id} product={item}/>
-                               })} */}
+                               })}
 
                             </div>
                         </div>
@@ -50,10 +50,10 @@ function Product() {
                     <div className = "container-fluid" id="body-content">
                             <div className="body-content-row row">
                         
-                               {/* { newdata = product.table.map(item => {
+                               { newdata = product.table.map(item => {
                                    console.log(item);
                                    return <CardItem key={item.Id} product={item}/>
-                               })} */}
+                               })}
 
                             </div>
                         </div>
@@ -62,10 +62,10 @@ function Product() {
                     <div className = "container-fluid" id="body-content">
                             <div className="body-content-row row">
                         
-                               {/* { newdata = product.ballandracket.map(item => {
+                               { newdata = product.ballandracket.map(item => {
                                    console.log(item);
                                    return <CardItem key={item.Id} product={item}/>
-                               })} */}
+                               })}
 
                             </div>
                         </div>
@@ -74,10 +74,10 @@ function Product() {
                     <div className = "container-fluid" id="body-content">
                             <div className="body-content-row row">
                         
-                               {/* { newdata = product.fashion.map(item => {
+                               { newdata = product.fashion.map(item => {
                                    console.log(item);
                                    return <CardItem key={item.Id} product={item}/>
-                               })} */}
+                               })}
 
                             </div>
                         </div>
@@ -86,10 +86,10 @@ function Product() {
                     <div className = "container-fluid" id="body-content">
                             <div className="body-content-row row">
                         
-                               {/* { newdata = product.accessory.map(item => {
+                               { newdata = product.accessory.map(item => {
                                    console.log(item);
                                    return <CardItem key={item.Id} product={item}/>
-                               })} */}
+                               })}
 
                             </div>
                         </div>
