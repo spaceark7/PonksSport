@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/AboutShow.css'
 import Yon from '../../assets/yon-cropped.png'
+import { Link } from 'react-router-dom';
 
 
 const AboutShow = () => {
@@ -8,7 +9,8 @@ const AboutShow = () => {
         <div className='col-about' id="left-container">
             <h3>About<span>US</span></h3>
             <p>Ponks Sport is the official distributor of XIOM Table Tennis table tennis equipment and accessories. It also has a table tennis sports management system, besides that Ponks Sport also provides Coaching Clinic and Private Training services by Yon Mardiyono (National Table Tennis Athlete).</p>
-            <a className="linkTo" href="#">Lebih Lanjut</a>
+            <Link to='/About'>More</Link>
+            {/* <a className="linkTo" href="#">Lebih Lanjut</a> */}
         </div>
         
         <div className='col-about' id="right-container">

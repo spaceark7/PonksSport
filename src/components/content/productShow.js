@@ -9,6 +9,7 @@ import Fashion from '../../assets/productShow/fb3.png'
 import Accessory from '../../assets/productShow/i5.png'
 
 import '../../styles/ProductShow.css'
+import { Link } from 'react-router-dom';
 
 const ProductShow = () => {
     
@@ -54,7 +55,8 @@ const ProductShow = () => {
                 <h1>The Best Professional Equipment</h1>
                 <hr id='separator'></hr>
                 <h3>Suits for All Your PlayStyle</h3>
-                <a className="link-button" href="#firstslide">See More</a>
+                <Link to='/Store'>See More</Link>
+                {/* <a className="link-button" href="#firstslide">See More</a> */}
                 <div id="slide-wrapper">
                 
 

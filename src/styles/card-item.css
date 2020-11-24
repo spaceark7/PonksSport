@@ -57,6 +57,13 @@
 
 #right a {
   font-size: 19pt;
+  background: #141137;
+  padding: 10px;
+  text-transform: uppercase;
+}
+#right a:hover {
+  text-decoration: none;
+  color: #9e3f5e;
 }
 #right h2,
 p,

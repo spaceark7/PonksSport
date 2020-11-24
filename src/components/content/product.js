@@ -4,16 +4,16 @@ import '../../styles/product.css';
 import {Tabs, Tab } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CardItem from '../card/card-item.js';
-import product from '../../data/rubber';
+import products from '../../data/products';
 function Product() {
     let newdata = '';
     const [data, setData] = useState([])
   const getData=()=>{
-     setData(product);
+     setData(products);
   }
   
   useEffect(() => {
-      
+      console.log('products: is ',products)
   })
     
  
@@ -24,12 +24,10 @@ function Product() {
                         <div className = "container-fluid" id="body-content">
                             <div className="body-content-row row">
                            
-                                { 
-                                
-                                    product.rubber.map(item => {
-                                    console.log(item);
-                                    return <CardItem  key={item.Id} product={item}/>})
-                               } 
+                            { newdata = products.rubber.map(item => {
+                                   console.log(item);
+                                   return <CardItem key={item.Id} product={item}/>
+                               })}
 
                             </div>
                         </div>
@@ -38,7 +36,7 @@ function Product() {
                     <div className = "container-fluid" id="body-content">
                             <div className="body-content-row row">
                         
-                               { newdata = product.blade.map(item => {
+                               { newdata = products.blade.map(item => {
                                    console.log(item);
                                    return <CardItem key={item.Id} product={item}/>
                                })}
@@ -50,7 +48,7 @@ function Product() {
                     <div className = "container-fluid" id="body-content">
                             <div className="body-content-row row">
                         
-                               { newdata = product.table.map(item => {
+                               { newdata = products.table.map(item => {
                                    console.log(item);
                                    return <CardItem key={item.Id} product={item}/>
                                })}
@@ -62,7 +60,7 @@ function Product() {
                     <div className = "container-fluid" id="body-content">
                             <div className="body-content-row row">
                         
-                               { newdata = product.ballandracket.map(item => {
+                               { newdata = products.ballandracket.map(item => {
                                    console.log(item);
                                    return <CardItem key={item.Id} product={item}/>
                                })}
@@ -74,7 +72,7 @@ function Product() {
                     <div className = "container-fluid" id="body-content">
                             <div className="body-content-row row">
                         
-                               { newdata = product.fashion.map(item => {
+                               { newdata = products.fashion.map(item => {
                                    console.log(item);
                                    return <CardItem key={item.Id} product={item}/>
                                })}
@@ -86,7 +84,7 @@ function Product() {
                     <div className = "container-fluid" id="body-content">
                             <div className="body-content-row row">
                         
-                               { newdata = product.accessory.map(item => {
+                               { newdata = products.accessory.map(item => {
                                    console.log(item);
                                    return <CardItem key={item.Id} product={item}/>
                                })}

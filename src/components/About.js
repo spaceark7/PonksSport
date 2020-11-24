@@ -21,9 +21,9 @@ const About = () => {
 
         </div>
     </div> 
-    <div className="video-block">
+    {/* <div className="video-block">
             <YouTubePlayer playing={true}  width="100%" height="100vh" muted={true} loop={true} url="https://www.youtube.com/watch?v=CZm79WRN1R0"/>
-    </div>
+    </div> */}
     </div> );
 }
  
