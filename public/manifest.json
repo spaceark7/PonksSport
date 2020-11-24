@@ -2,6 +2,10 @@
   "short_name": "Ponks Sport",
   "name": "Ponks Sport Store",
   "description": "Official XIOM Product Retail Store",
+  "developer": {
+    "name": "Space Ark 7",
+    "url": "https://github.com/spaceark7"
+  },
   "icons": [
     {
       "src": "favicon.ico",
