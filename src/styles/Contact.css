@@ -108,23 +108,27 @@
 }
 
 @media (max-width: 425px) {
+  .contact-container {
+    
+  }
   .contact-title {
     font-size: 31px;
     text-align: center;
   }
   .title-desc {
-    font-size: 19px;
-    line-height: 25px;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 0px 10px;
   }
 
   .right-cont-container h2 {
     font-size: 31px;
   }
   .right-cont-container h3 {
-    font-size: 15px;
+    font-size: 10px;
   }
   .right-cont-container p {
-    font-size: 15px;
+    font-size: 10px;
   }
   .quote {
     font-size: 15px;
