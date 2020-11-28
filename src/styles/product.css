@@ -11,7 +11,13 @@
     background: black;
     height: 100%;
 }
-
+.nav-tabs {
+    position: sticky !important;
+    top: 20% !important;
+    z-index: 100;
+    background: black;
+    width: 100%;
+}
 .main-tab, .tab-content {
     position: relative;
     top: 10%;
