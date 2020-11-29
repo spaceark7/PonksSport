@@ -18,10 +18,10 @@ const Footer = () => {
         <div className="col-footer">
             <h2>Social Media</h2>
             <div className="sosmed">
-                <a target="blank" href="https://www.facebook.com/xiom.indonesia"><img id="icon" src={FB}></img></a>
-                <a href="#"><img id="icon" src={IG}></img></a>
-                <a href="#"><img id="icon" src={YT}></img></a>
-                <a href="#"><img id="icon" src={WA}></img></a>
+                <a target="blank" href="https://www.facebook.com/xiom.indonesia"><img alt='icon' id="icon" src={FB}></img></a>
+                <a target="blank" rel='noreferrer' href="https://www.instagram.com/xiom.id/"><img id="icon" src={IG}></img></a>
+                <a target="blank" rel='noreferrer' href="https://www.youtube.com/channel/UCSmShnwwIO2ob1B560u7vCw"><img id="icon" src={YT}></img></a>
+                <a href={`https://wa.me/+6281220149321?text=Halo, saya tertarik dengan product xiom, boleh saya minta informasi mengenai produknya?`}><img id="icon" src={WA}></img></a>
             </div>
         </div>
     </div> );

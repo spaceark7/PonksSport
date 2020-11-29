@@ -23,7 +23,7 @@ function CardItem({product}) {
                     <p>{product.desc}</p>
                     <h3>Color: {product.color}</h3>
                     <h3>Size: {product.specs} </h3>
-                    <a href={`https://wa.me/+6281563640354?text=${imz}`} target='_blank' rel="noreferrer">Order</a>
+                    <a href={`https://wa.me/+6281220149321?text=${imz}`} target='_blank' rel="noreferrer">Order</a>
                 </div>
                 
             </div>
